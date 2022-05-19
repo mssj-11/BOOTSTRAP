@@ -1,0 +1,65 @@
+.bg-footer{
+    background-color: #33383c;
+    padding: 50px 0 30px;
+}
+
+.footer-heading{
+    position: relative;
+    padding-bottom: 12px;
+    letter-spacing: 2px;
+}
+
+.footer-heading::after{
+    position: absolute;
+    display: block;
+    content: '';
+    width: 25px;
+    left: 0;    bottom: 0;
+    border-bottom: 3px solid #1bbc9b;
+}
+
+.footer-link a{
+    color: #acacac;
+    font-size: 14px;
+    line-height: 40px;
+    transition: all .5s;
+}
+
+.footer-link a:hover{ color: #1bbc9b;  }
+
+.contact-info{
+    color: #acacac;
+    font-size: 14px;
+}
+
+.footer-social-icon{
+    display: inline-block;
+    width: 34px;    height: 34px;
+    font-size: 15px;
+    line-height: 34px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.facebook{
+    color: #fff;
+    background-color: #4e71a8;
+}
+
+.twitter{
+    color: #fff;
+    background-color: #55acee;
+}
+
+.instagram{
+    color: #fff;
+    background: radial-gradient(circle at 33% 100%,
+    #fed373, #f15245, #d92e7f, #515ecf);
+}
+
+.github{
+    color: #fff;
+    background-color: #000;
+}
+
+.footer-alt{  color: #fff;  font-weight: bold;  }
