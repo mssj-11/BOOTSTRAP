@@ -1,0 +1,38 @@
+body{  background: #c9ccd1; }
+
+.form-style input{
+    height: 50px;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.form-style input:focus{
+    background-color: #ebebeb;
+    border-bottom: 1px solid #007bff;
+    border-style: none;
+    outline: none;
+}
+
+button{  height: 50px;   }
+
+.sideline{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ccc;
+}
+
+.sideline::before,
+.sideline::after{
+    content: '';
+    flex: 1 0 20px;
+    margin: 0 20px 0 0;
+    border-top: 1px solid #ebebeb;
+}
+
+.sideline::after{
+    margin: 0 0 0 20px;
+}
